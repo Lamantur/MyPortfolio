@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>games</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class='head'>
+        <div class="formbox">
+            <div class="fformbox">
+                <input type="text" class="form-control" name="login" id="login" placeholder="логин">
+                <input type="text" class="form-control" name="pass" id="pass" placeholder="пароль">
+                <button class="btn btn-success" onclick="sendauth()">Войти</button>
+                <div id="your_php_results" class="hrefbox"><a href="./registration_php/exit.php">выйти</a></div>
+                <div class="auth_result" style="display: none"></div>
+            </div>
+
+
+        </div>
+        <div class="menubox">
+            <a href="contacts.html" class="menu">Регистрация</a>
+            <a href="games.html" class="menu">Проекты</a>
+            <a href="about.html" class="menu">Обо мне</a>
+            <a href="index.html" class="menu">HOME</a>
+        </div>
+
+    </div>
+    <div class="body" id="gamesbody">
+        <div class="gamebox">
+            <a href="snake.html"><img src="img/snakegame.png" alt="SNAKE" height="300px"></a>
+            <p>Snake - простая игра, реализованная на JavaScript. Управление реализована клавишами WSAD, перед началом
+                игры необходимо выбрать уровень сложности, от которого зависти скорость перемещения змейки. Игра
+                начинается заного, если змейка выходит за пределы игрового поля или заходит сама на себя. При этом нужно
+                съедать жуков, которые постоянно появляются на поле и позволяют змейке увеличивать свою длину. В игре
+                так же ведется счетчик очков, множитель которого зависит от уровня сложности. Помимо этого сохраняется
+                рекордное количество достигнутых за игровую сессию очков.</p>
+        </div>
+        </br>
+        <div class="gamebox">
+            <a href="math4kids.html"><img src="img/maths-math-kids.png" alt="M4K" height="300px"></a>
+            <p>В игре "Математика для детей" реализована логика правильных и неправильных ответов на вопрос. Игроку
+                предлагается выбрать правильный ответ из трех предложенных. В качестве вопросов случайно генерируются
+                простые примеры по математике на сложение и вычитание, а так же варианты ответов к ним. </p>
+        </div>
+        <div class="gamebox">
+            <a href="calculator.html"><img src="img/calc.png" alt="M4K" height="300px"></a>
+            <p>Сверстанный калькулятор с применением html/css/js открывается на отдельной странице в качестве примеров
+                верстки и применения стилей. На javascript реализована логика работы.</p>
+        </div>
+        <div class="gamebox">
+            <a href="parallax.html"><img src="img/parallax/base_0002_Layer-0.png" alt="M4K" height="300px"></a>
+            <p>Страница с Parallax эффектом, подключением шрифтов. Использована библиотека GSAP.</p>
+        </div>
+        <div class="gamebox">
+            <a href="starship.html"><img src="img/asteroids/fon.jpg" alt="M4K" height="300px"></a>
+            <p>Игра по мотивам SpaceInvaders привязка к движениям мыши, автоматическая генерация астероидов и выстрелов
+            </p>
+        </div>
+        <div class="gamebox">
+            <a href="NFS.html"><img src="img/NFS/fon.png" alt="M4K" height="300px"></a>
+            <p>Еще одна игра с использованием только javascript
+            </p>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snake</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/snake.css">
+</head>
+
+<body bgcolor="black">
+    <div class='head'>
+        <div class="formbox">
+            <div class="fformbox">
+                <input type="text" class="form-control" name="login" id="login" placeholder="логин">
+                <input type="text" class="form-control" name="pass" id="pass" placeholder="пароль">
+                <button class="btn btn-success" onclick="sendauth()">Войти</button>
+                <div id="your_php_results" class="hrefbox"><a href="./registration_php/exit.php">выйти</a></div>
+                <div class="auth_result" style="display: none"></div>
+            </div>
+
+
+        </div>
+        <div class="menubox">
+            <a href="contacts.html" class="menu">Регистрация</a>
+            <a href="games.html" class="menu">Проекты</a>
+            <a href="about.html" class="menu">Обо мне</a>
+            <a href="index.html" class="menu">HOME</a>
+        </div>
+
+    </div>
+    <div class="snakegame">
+        <div class="levelchange">
+            <h1>Выберите</h1>
+            <h1>уровень</h1>
+            <h1>сложности</h1>
+        </div>
+
+        <canvas id='game' width="608" height="608"></canvas>
+
+        <div class="buttons">
+
+            <button type="easy" id="easy" onclick="easybutton();">EASY</button>
+            <button type="normal" id="normal" onclick="normalbutton()">NORMAL</button>
+            <button type="hard" id="hard" onclick="hardbutton()">HARD</button>
+        </div>
+    </div>
+    <script src="./JS/snake.js"></script>
+</body>
+
+</html>

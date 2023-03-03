@@ -1,0 +1,296 @@
+body {
+    background-color: rgb(182, 182, 255);
+}
+
+#bodyhome {
+    position: fixed;
+}
+
+
+.head {
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    right: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(128, 128, 255);
+}
+
+.shead {
+    position: fixed;
+}
+
+
+.formbox {
+    display: inline-block;
+    margin: 5px;
+}
+
+.fformbox {
+    display: inline-block;
+}
+
+.hrefbox {
+    margin: 5px;
+    display: inherit;
+}
+
+.menubox {
+    text-decoration: dashed;
+    font-size: 20pt;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    display: inline-block;
+}
+
+.menubox a {
+    margin-left: 10px;
+}
+
+
+
+
+.shead form {
+
+    float: left;
+}
+
+.menu {
+
+    float: right;
+}
+
+.body p {
+    display: inline-block;
+    width: 50%;
+    font-family: cursive;
+    font-size: large;
+}
+
+.hello {
+    z-index: 2;
+    position: absolute;
+    display: inline-block;
+    width: 400px;
+    height: 650px;
+    margin-left: 15px !important;
+    margin-top: 95px !important;
+}
+
+
+.myname {
+
+    font-size: 30pt;
+    font-family: monospace;
+    position: absolute;
+    margin-top: 0%;
+}
+
+.whoami {
+    position: absolute;
+    font-size: 18pt;
+    margin-top: 40%;
+}
+
+.welkome {
+    position: absolute;
+    margin-top: 52%;
+}
+
+.myphoto {
+
+    position: fixed;
+    width: 400px;
+    height: 790px;
+    margin-left: 50%;
+}
+
+.myphoto img {
+    position: fixed;
+    margin-left: 12%;
+    margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+.H {
+    color: blue;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-block-end: 0.1em;
+
+}
+
+.mathhead {
+    background-color: rgb(200, 150, 0);
+    color: white;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin-top: 68px;
+    margin-bottom: 0px;
+}
+
+.box {
+    background-color: bisque;
+    color: blue;
+    display: flex;
+    width: auto;
+    height: 500px;
+}
+
+.game {
+    display: flex;
+    background-color: aqua;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+
+}
+
+.box2 {
+
+    width: 20%;
+    height: 80%;
+    margin: auto;
+
+}
+
+.v1 {
+    display: flex;
+    background-color: rgb(43, 0, 255);
+    width: 90%;
+    height: 33%;
+    margin: auto;
+
+}
+
+.v2 {
+    display: flex;
+    background-color: rgb(153, 255, 0);
+    width: 90%;
+    height: 33%;
+    margin: auto;
+
+}
+
+.v3 {
+    display: flex;
+    background-color: rgb(100, 100, 182);
+    width: 90%;
+    height: 33%;
+    margin: auto;
+
+}
+
+.Zadanie {
+    font-size: 800%;
+    text-align: center;
+    color: black;
+    margin: auto;
+}
+
+.rezult {
+    font-size: 500%;
+    text-align: center;
+    color: black;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-color: chartreuse;
+}
+
+.rezult:hover {
+    filter: brightness(150%);
+}
+
+.rezult:active {
+    filter: brightness(70%);
+}
+
+
+.labels {
+    width: 400pt;
+    height: 50pt;
+    position: absolute;
+    margin-top: 100%;
+}
+
+.gamebox {
+    width: auto;
+    height: 350pt;
+    display: inline-block;
+}
+
+.gamebox img {
+    margin: 10pt;
+    float: left;
+    border: 5px solid white;
+    border-radius: 5px;
+
+}
+
+.q1 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: brown;
+    margin-top: 62%;
+    border-radius: 10px;
+}
+
+.q2 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(201, 153, 41);
+    margin-top: 50%;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+
+.q3 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(41, 49, 201);
+    margin-top: 40%;
+    margin-left: 20%;
+    border-radius: 10px;
+}
+
+.aboutphoto img {
+    float: right;
+}
+
+.textaboutmi {
+    height: 792.16px;
+    font-size: 24pt;
+    padding-top: 10%;
+    padding-left: 7%;
+}
+
+.form-control {
+    width: 50pt;
+}
+
+.conteiner.mt-4 {
+    margin-top: 70px;
+    display: inline-block;
+}
+
+div#gamesbody {
+    margin-top: 84px;
+}

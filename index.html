@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="JS/getcooki.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="JS/authorisation.js"></script>
+</head>
+
+<body>
+    <div class='head'>
+        <div class="formbox">
+            <div class="fformbox">
+                <input type="text" class="form-control" name="login" id="login" placeholder="логин">
+                <input type="text" class="form-control" name="pass" id="pass" placeholder="пароль">
+                <button class="btn btn-success" onclick="sendauth()">Войти</button>
+                <div id="your_php_results" class="hrefbox"><a href="./registration_php/exit.php">выйти</a></div>
+                <div class="auth_result" style="display: none"></div>
+            </div>
+
+
+        </div>
+        <div class="menubox">
+            <a href="contacts.html" class="menu">Регистрация</a>
+            <a href="games.html" class="menu">Проекты</a>
+            <a href="about.html" class="menu">Обо мне</a>
+            <a href="index.html" class="menu">HOME</a>
+        </div>
+
+    </div>
+    <div class='body' style="position:fixed">
+        <div class='hello'>
+            <div class="myname">HI,
+                My name is Yaroslav Martianov
+            </div>
+            <div class="whoami">I'm frontend developer</div>
+            <div class="welkome">Welkome to my page</div>
+            <div class="labels">
+                <a href="https://vk.com/id639819381"><img src="./img/vk.png" alt="VK" height="75px"></a>
+                <a href="http://lamantur2017@gmail.com"><img src="./img/Gmail-logo.png" alt="GMail" height="75px"></a>
+            </div>
+        </div>
+        <div class='myphoto'>
+            <div class='q1'></div>
+            <div class='q2'></div>
+            <div class='q3'></div>
+
+            <img src="./img/Miphoto.png" alt="" width="400px">
+        </div>
+
+    </div>
+</body>
+
+</html>

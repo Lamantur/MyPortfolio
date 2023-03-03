@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>math4kids</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class='head'>
+        <div class="formbox">
+            <div class="fformbox">
+                <input type="text" class="form-control" name="login" id="login" placeholder="логин">
+                <input type="text" class="form-control" name="pass" id="pass" placeholder="пароль">
+                <button class="btn btn-success" onclick="sendauth()">Войти</button>
+                <div id="your_php_results" class="hrefbox"><a href="./registration_php/exit.php">выйти</a></div>
+                <div class="auth_result" style="display: none"></div>
+            </div>
+
+
+        </div>
+        <div class="menubox">
+            <a href="contacts.html" class="menu">Регистрация</a>
+            <a href="games.html" class="menu">Проекты</a>
+            <a href="about.html" class="menu">Обо мне</a>
+            <a href="index.html" class="menu">HOME</a>
+        </div>
+
+    </div>
+    <h1 class='mathhead' c>Математика</h1>
+    <div class='box'>
+        <div class='game' id="game">
+            <H1 class="Zadanie" id="zadanie">Пример</H1>
+
+        </div>
+        <div class='box2'>
+            <div class='v v1'>
+                <button class="rezult" id="rezult1">15</button>
+            </div>
+
+            <div class='v v2'>
+                <button class="rezult" id="rezult2">17</button>
+            </div>
+
+            <div class='v v3'>
+                <button class="rezult" id="rezult3">20</button>
+            </div>
+        </div>
+    </div>
+    <script src="./JS/math4kids.js"></script>
+</body>
+
+</html>
